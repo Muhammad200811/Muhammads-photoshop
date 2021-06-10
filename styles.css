@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+  body{
+    background: url(Zf164X.jpg);
+    background-size: 1200px;
+    
+}
+
+.navbar {
+    
+    text-align: center;
+    background-size: cover;
+    padding: 30px 10%;
+    position: sticky;
+
+}
+.navbar > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+.href1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 12px 14px;
+    border: 1px solid transparent;
+    transition: ease-in-out .4s;
+    border-radius: 5px;
+    margin: 3px;
+}
+.href1:hover {
+    color: blue;
+    border-radius: 50px;
+    background-color: white ;
+    border: 1px solid white;
+    transition: ease-in-out .4s;
+}
+.container1{
+    text-align: center;
+    margin:10%;
+}
+.H1tag{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 28px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .button:hover{
+      color: white;
+      background-color: darkcyan;
+      width: 400px;
+      transition: ease-in .4s;
+  }
